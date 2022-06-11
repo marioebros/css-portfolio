@@ -1,0 +1,169 @@
+/*
+COLOR PALETTE
+https://coolors.co/01161e-fffffc-beb7a4-ff7f11-34623f
+#01161E - Rich Black FOGRA 29
+#FFFFFC - Baby Powder
+#BEB7A4 - Khaki Web
+#0058C0 - Sapphire
+#FF7F11 - Amber SAE ECE
+#34623F - Hunter Green
+*/
+
+/*
+COLOR PALETTE ALT
+https://coolors.co/01161e-fffffc-beb7a4-ff7f11-34623f
+#30343F - Gunmetal
+#4A4D57 - Dark Liver
+#C8C9CF - Silver Sand
+#FAFAFF - Ghost White
+#E4D9FF - Lavender Blue
+#FB3640 - Red Salsa
+#E56399 - China Pink
+*/
+
+/*
+BU COLOR PALETTE
+https://teamcolorcodes.com/boston-university-terriers-colors/
+#CC0000 - RED
+#A3011B - DARK RED
+#231F20 - DARK GREY
+#929497 - GREY
+#E6E6E7 - LIGHT GREY
+#FFFFFF - WHITE
+*/
+
+/*
+CLU COLOR PALETTE
+https://color.adobe.com/Cal-Lutheran-Colors-color-theme-6524619/
+#3B2360 - Purple
+#6A4C92 - Plum
+#FFC222 - Gold
+#FFD589 - Light Yellow
+#7C7B7C - Light Grey
+*/
+
+/* Global Styles
+---------------------------------------*/
+body {
+    color: #01161E;
+    background-color: #E4D9FF;
+}
+img {
+    width: 300px;
+}
+a {
+    color: #01161E;
+}
+a:hover {
+    text-decoration: none;
+}
+
+/* Profile
+---------------------------------------*/
+header {
+    background-color: #30343F;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 4px;
+}
+.head-text {
+    color: #E4D9FF;
+    text-decoration: wavy;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+
+/* Projects
+---------------------------------------*/
+.projects {
+    background-color: #BEB7A4;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 4px;
+}
+.projects a {
+
+}
+.projects .btn {
+    color: #FFFFFC;
+    background: #FB3640;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+.projects .btn:hover {
+    background: rgb(251, 54, 64, 80%);
+}
+
+/* Work Experience
+---------------------------------------*/
+.work-experience {
+    background-color: #4A4D57;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 4px;
+}
+.crypto {
+    background-color: #C8C9CF;
+    border-style: groove;
+    border-width: 10px;
+    border-radius: 4px;
+    border-color: #E56399;
+    padding: 10px;
+    margin: 4px;
+}
+.copywriter {
+    background-color: #C8C9CF;
+    border-style: groove;
+    border-width: 10px;
+    border-radius: 4px;
+    border-color: #FB3640;
+    padding: 10px;
+    margin: 4px;
+}
+.roomeze {
+    background-color: #C8C9CF;
+    border-style: groove;
+    border-width: 10px;
+    border-radius: 4px;
+    border-color: #34623F ;
+    padding: 10px;
+    margin: 4px;
+}
+
+
+/* Education
+---------------------------------------*/
+.education {
+    background-color: #E4D9FF;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 4px;
+}
+.bu {
+    background-color: #929497;
+    border-style: double;
+    border-width: 10px;
+    border-radius: 4px;
+    border-color: #A3011B;
+    padding: 10px;
+    margin: 10px;
+}
+.clu {
+    background-color: #FFC222;
+    border-style: double;
+    border-width: 10px;
+    border-radius: 4px;
+    border-color: #3B2360;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Contact Info
+---------------------------------------*/
+footer {
+    background-color: #E56399;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+}
