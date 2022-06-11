@@ -46,7 +46,7 @@ https://color.adobe.com/Cal-Lutheran-Colors-color-theme-6524619/
 ---------------------------------------*/
 body {
     color: #01161E;
-    background-color: #E4D9FF;
+    background-color: #30343F;
 }
 img {
     width: 300px;
@@ -61,22 +61,49 @@ a:hover {
 /* Profile
 ---------------------------------------*/
 header {
-    background-color: #30343F;
+    background-color: #4A4D57;
     border-radius: 4px;
     padding: 10px;
-    margin: 4px;
+    margin: 10px;
+}
+li, ul {
+    list-style: none;
+}
+#mainMenu {
+    margin: 10px;
+	width: 900px;
+	font-family: sans-serif;
+}
+#mainMenu li {
+    display: block;
+    width: 120px;
+    float: left;
+    margin-left: 2px;
+    border: 1px solid #E56399;
+}
+#mainMenu a {
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+    background-color: #C8C9CF;
+    color: #01161E;
 }
 .head-text {
     color: #E4D9FF;
     text-decoration: wavy;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
+.menu {
+    color: #E4D9FF;
+    text-decoration: wavy;
+  /*  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; */
+}
 
 
 /* Projects
 ---------------------------------------*/
 .projects {
-    background-color: #BEB7A4;
+    background-color: #C8C9CF;
     border-radius: 4px;
     padding: 10px;
     margin: 4px;
@@ -98,13 +125,13 @@ header {
 /* Work Experience
 ---------------------------------------*/
 .work-experience {
-    background-color: #4A4D57;
+    background-color: #E4D9FF;
     border-radius: 4px;
     padding: 10px;
     margin: 4px;
 }
 .crypto {
-    background-color: #C8C9CF;
+    background-color: #E6E6E7;
     border-style: groove;
     border-width: 10px;
     border-radius: 4px;
@@ -113,7 +140,7 @@ header {
     margin: 4px;
 }
 .copywriter {
-    background-color: #C8C9CF;
+    background-color: #E6E6E7;
     border-style: groove;
     border-width: 10px;
     border-radius: 4px;
@@ -122,7 +149,7 @@ header {
     margin: 4px;
 }
 .roomeze {
-    background-color: #C8C9CF;
+    background-color: #E6E6E7;
     border-style: groove;
     border-width: 10px;
     border-radius: 4px;
@@ -141,7 +168,7 @@ header {
     margin: 4px;
 }
 .bu {
-    background-color: #929497;
+    background-color: #E6E6E7;
     border-style: double;
     border-width: 10px;
     border-radius: 4px;
@@ -150,11 +177,13 @@ header {
     margin: 10px;
 }
 .clu {
-    background-color: #FFC222;
+    color: #FAFAFF;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    background-color: #3B2360;
     border-style: double;
     border-width: 10px;
     border-radius: 4px;
-    border-color: #3B2360;
+    border-color: #FFC222;
     padding: 10px;
     margin: 10px;
 }
@@ -162,7 +191,7 @@ header {
 /* Contact Info
 ---------------------------------------*/
 footer {
-    background-color: #E56399;
+    background-color: #C8C9CF;
     border-radius: 4px;
     padding: 10px;
     margin: 10px;
