@@ -116,8 +116,6 @@ header {
 li, ul {
     list-style: none;
 }
-#mainMenu {
-}
 #mainMenu li {
     color: #FFFFFC;
     display: inline-block;
@@ -141,7 +139,7 @@ li, ul {
     justify-content: center;
     color: #E4D9FF;
     text-decoration: wavy;
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; */
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
 
