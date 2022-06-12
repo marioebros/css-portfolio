@@ -116,31 +116,20 @@ header {
 li, ul {
     list-style: none;
 }
-    /*    nav {
-            display: flex;
-        }
-        #mainMenu {
-            display: inline-block;
-            margin: 10px;
-            height: auto;
-            width: 900px;
-            font-family: sans-serif;
-        }
-        #mainMenu li {
-            display: inline-block;
-            width: auto;
-            float: none;
-            margin-left: 2px;
-            border: 1px solid #4A4D57;
-        }
-        #mainMenu a {
-            display: inline-block;
-            width: auto;
-            padding: 3px;
-            text-decoration: none;
-            background-color: #C8C9CF;
-            color: #01161E;
-        }   */
+#mainMenu {
+}
+#mainMenu li {
+    color: #FFFFFC;
+    display: inline-block;
+    width: 125px;
+    height: 18px;
+    float: none;
+    margin-left: 0;
+    border: 5px transparent #4A4D57;
+}
+#mainMenu a {
+    color: #FFFFFC;
+}   
 .head-text {
     color: #E4D9FF;
     padding: 10px;
@@ -148,20 +137,22 @@ li, ul {
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 .menu {
+    display: flex;
+    justify-content: center;
     color: #E4D9FF;
     text-decoration: wavy;
-  /*  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; */
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; */
 }
 
 
 /* Projects
 ---------------------------------------*/
 .projects {
+    color: #080808;
     background-image: url(./images/hans-eiskonen-wn57cSQ7VzI-unsplash.jpeg);
     background-size: cover;
-    background-position: top left;
+    background-position: 70% 75%;
     background-color: #C8C9CF;
-    border-radius: 0;
     padding: 10px;
     margin: 0;
 }
@@ -180,6 +171,7 @@ li, ul {
     background: rgb(251, 54, 64, 80%);
 }
 .project-item {
+    color: #080808;
     overflow: hidden;
 }
 .project-item h3 {
@@ -202,16 +194,24 @@ li, ul {
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 20px;
-    color: #4A4D57;
+    background-image: url(./images/kelly-sikkema-crKv6Ic3Mh0-unsplash.jpeg);
+    background-size: 900px;
+    background-position: top left;
+    color: #FFFFFC;
     background-color: #E6E6E7;
     border-radius: 20px;
     padding: 10px;
-    margin: 4px;
     text-shadow: none;
 }
+.job-details {
+    padding-left: 25px;
+    padding-bottom: 35px;
+}
+.job-summary {
+
+}
 .work-list {
-    list-style: none;
-    color: #4A4D57;
+    list-style-type: circle;
 }
 
 /* Education
@@ -219,7 +219,7 @@ li, ul {
 .education {
     color: #E4D9FF;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
-    background-image: url(./images/will-porada-y-6fm55D0nU-unsplash.jpeg);
+    background-image: url(./images/anjana-menon-v3UZKbMaTGk-unsplash.jpeg);
     background-size: cover;
     background-position: top right;
     padding-bottom: 100px;
@@ -252,7 +252,7 @@ li, ul {
 /* Contact Info
 ---------------------------------------*/
 footer {
-    color: #E4D9FF;
+    color: #FFFFFC;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
     background-image: url(./images/fernando-hernandez-JdoofvUDUwc-unsplash.jpeg);
     background-size: cover;
@@ -266,6 +266,7 @@ footer {
     padding: 0;
 }
 .contact-list a {
+    color: #FFFFFC;
     padding: 15px;
     display: inline-block;
 }
