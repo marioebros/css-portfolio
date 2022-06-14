@@ -207,6 +207,8 @@ ul {
   padding-bottom: 35px;
 }
 .job-summary {
+  display: block;
+  margin: 10px;
 }
 .work-list {
   list-style-type: circle;
