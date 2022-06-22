@@ -213,7 +213,10 @@ ul {
 .work-list {
   list-style-type: circle;
 }
-
+.resume {
+  display: flex;
+  justify-content: center;
+}
 /* Education
 ---------------------------------------*/
 .education {
