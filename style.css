@@ -176,6 +176,10 @@ ul {
 .project-item h3 {
   margin-top: 0;
 }
+img {
+  border: 2.5px solid rgb(8,8,8,0.25);
+  border-radius: 5px;
+}
 
 /* Work Experience
 ---------------------------------------*/
@@ -217,7 +221,7 @@ ul {
   display: flex;
   justify-content: center;
 }
-/* Education
+/* Education & Certifications
 ---------------------------------------*/
 .education {
   color: #e4d9ff;
@@ -228,7 +232,17 @@ ul {
   padding-bottom: 100px;
 }
 .education p {
-  width: 60%;
+  width: 80%;
+}
+.odin {
+  color: #fafaff;
+  background-color: #01161E;
+  border-style: double;
+  border-width: 10px;
+  border-radius: 4px;
+  border-color: ##34623F;
+  padding: 10px;
+  margin: 10px;
 }
 .bu {
   color: #080808;
