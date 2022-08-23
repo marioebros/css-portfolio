@@ -156,7 +156,13 @@ ul {
   padding: 10px;
   margin: 0;
 }
-.projects a {
+.btn-git {
+  color: #fffffc;
+  background: #fb3640;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
 }
 .projects .btn {
   color: #fffffc;
@@ -165,16 +171,18 @@ ul {
   padding: 8px;
   border-radius: 4px;
   display: inline-block;
+  float: left;
 }
 .projects .btn:hover {
   background: rgb(251, 54, 64, 80%);
 }
 .project-item {
-  height: 300px;
+  height: 400px;
   color: #080808;
   overflow: hidden;
+  margin: 50px;
+  padding: 25px;
 }
-
 .project-item h3 p {
   float: right;
   width: 50%;
@@ -185,6 +193,7 @@ ul {
 }
 .project-item p {
   height: 75%;
+  text-overflow: ellipsis;
 }
 img {
   border: 2.5px solid rgb(8,8,8,0.25);
