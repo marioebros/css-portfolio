@@ -170,11 +170,21 @@ ul {
   background: rgb(251, 54, 64, 80%);
 }
 .project-item {
+  height: 300px;
   color: #080808;
   overflow: hidden;
 }
+
+.project-item h3 p {
+  float: right;
+  width: 50%;
+}
 .project-item h3 {
   margin-top: 0;
+  font-weight: bold;
+}
+.project-item p {
+  height: 75%;
 }
 img {
   border: 2.5px solid rgb(8,8,8,0.25);
