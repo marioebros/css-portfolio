@@ -118,8 +118,11 @@ header {
 .head-text {
   color: #fffffc;
   display: block;
-  text-decoration: wavy;
   text-shadow: 0 0 25px #080808, 0 0 25px #080808;
+}
+.head-text p {
+  width: 100%;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
 }
 .menu {
   display: flex;
