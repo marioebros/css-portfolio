@@ -179,7 +179,7 @@ ul {
 .project-item {
   height: 400px;
   color: #080808;
-  overflow: hidden;
+  overflow: scroll;
   margin: 50px;
   padding: 25px;
 }
