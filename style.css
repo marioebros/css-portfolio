@@ -116,17 +116,17 @@ header {
   margin: 0;
 }
 .head-text {
-  color: #e4d9ff;
+  color: #fffffc;
   display: block;
   text-decoration: wavy;
-  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+  text-shadow: 0 0 25px #080808, 0 0 25px #080808;
 }
 .menu {
   display: flex;
   justify-content: center;
-  color: #e4d9ff;
+  color: #fffffc;
   text-decoration: wavy;
-  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+  text-shadow: 0 0 25px #080808, 0 0 25px #080808;
 }
 li,
 ul {
@@ -203,21 +203,24 @@ img {
 /* Work Experience
 ---------------------------------------*/
 .work-experience {
-  color: #e4d9ff;
+  color: #fffffc;
   background-image: url(./images/zane-lee-LvVw6wRmGAM-unsplash.jpeg);
   background-size: cover;
   background-position: top left;
   text-decoration: wavy;
-  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+  text-shadow: 0 0 25px #080808, 0 0 25px #080808;
   padding: 10px;
   margin: 0;
+}
+.work-experience h3 {
+  text-shadow: 0 0 25px #080808, 0 0 25px #080808;
 }
 .job-item {
   display: grid;
   grid-template-columns: 1fr 2fr;
   column-gap: 20px;
   background-image: url(./images/kelly-sikkema-crKv6Ic3Mh0-unsplash.jpeg);
-  background-size: 900px;
+  background-size: 100%;
   background-position: top left;
   color: #fffffc;
   background-color: #e6e6e7;
@@ -232,6 +235,7 @@ img {
 .job-summary {
   display: block;
   margin: 10px;
+  text-shadow: 0 0 3px #080808, 0 0 5px #080808;
 }
 .work-list {
   list-style-type: circle;
@@ -243,8 +247,8 @@ img {
 /* Education & Certifications
 ---------------------------------------*/
 .education {
-  color: #e4d9ff;
-  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+  color: #fffffc;
+  text-shadow: 0 0 25px #080808, 0 0 25px #080808;
   background-image: url(./images/anjana-menon-v3UZKbMaTGk-unsplash.jpeg);
   background-size: cover;
   background-position: top right;
@@ -289,7 +293,7 @@ img {
 ---------------------------------------*/
 footer {
   color: #fffffc;
-  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+  text-shadow: 0 0 25px #080808, 0 0 25px #080808;
   background-image: url(./images/fernando-hernandez-JdoofvUDUwc-unsplash.jpeg);
   background-size: cover;
   background-position: center;
